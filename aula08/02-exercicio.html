@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="/curso-php/assets/css/style.css">
+    <title>Curso de PHP</title>
+</head>
+<body>
+    <div class="terminal-window">
+        <div class="terminal-header">
+            <div class="buttons">
+                <div class="button close"></div>
+                <div class="button minimize"></div>
+                <div class="button maximize"></div>
+            </div>
+            <div class="title">Aula 08</div>
+        </div>
+        <div class="terminal-content">
+
+            <form method="get" action="02idade.php">
+                Nome: <br/><input type="text" name="nome"/><br/>
+                Ano de Nascimento: <br/><input type="number" name="ano"/><br/>
+                <fieldset><legend>Sexo</legend>
+                    <input type="radio" name="sexo" id="masc" value="homem" checked/>
+                    <label for="masc">Masculino</label><br/>
+                    <input type="radio" name="sexo" id="fem" value="mulher"/>
+                    <label  for="fem">Feminino</label>
+                </fieldset><br/>
+                <input type="submit" class="botao" value="Enviar"/>    
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
